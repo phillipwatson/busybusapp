@@ -1,0 +1,35 @@
+body{
+  width: 375px
+}
+
+nav{
+  background-color: #979797
+  border-bottom: 1px solid black
+}
+
+div{
+  border-bottom: 1px solid black
+}
+
+.nowBoarding{
+  background-color: #979797
+}
+
+.eastBound{
+}
+
+.northBound{
+}
+
+.southBound{
+}
+
+.reroute{
+}
+
+.outOfService{
+}
+
+.frequency{
+  display: inline;
+}
