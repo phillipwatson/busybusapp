@@ -2,18 +2,32 @@ body{
   width: 375px
 }
 
+h1{
+  display: inline;
+  text-align: center;
+  margin: auto;
+}
+
+h3{
+  padding: 4% 0 0 4%;
+  float: left;
+}
+
 nav{
   background-color: #ECECEC;
   text-align: center;
   padding: 5%;
 }
 
+.backButton{
+  color: #007AFF;
+  display:inline;
+  padding-right: 50px
+}
+
 div{
   padding: 5%;
   border-bottom: 1px solid black;
-}
-
-h1{
 }
 
 .route{
@@ -22,44 +36,69 @@ h1{
 
 .whitebox{
   background-color: #fff;
+  width: 250px;
+  height: 35px;
+  margin: auto;
 }
 
 .nowBoarding{
   border-bottom: none;
   background-color: #ECECEC;
   text-align: center;
-  margin: 1%;
-}
-
-.eastBound{
-}
-
-.northBound{
-}
-
-.southBound{
-}
-
-.reroute{
-}
-
-.outOfService{
 }
 
 .frequency{
   display: inline-block;
   float: right;
-}
-
-.backButton{
-  display:inline;
-  padding-right: 0%
+  margin-right: 8%;
 }
 
 .line{
-  display: inline-block;
+  display: inline;
 }
 
 .boardingtext{
   padding: 5%;
+}
+
+.min{
+padding-top: 2%;
+text-align: right;
+margin-right: 8%;
+}
+
+.backarrow{
+  margin-left:-25%;
+}
+
+.ham{
+  float: right;
+  margin-top: 4%;
+}
+
+.searcharrow{
+  float: right;
+  background-color: #ECECEC;
+  width: 30px;
+  height: 30px;
+  margin: 1%;
+}
+
+.rightarrow{
+  float: right;
+  display: inline;
+  margin-top: -10%;
+  margin-left: 20%;
+}
+
+.rightarrow2{
+  float: right;
+  margin-left: 200%;
+  margin-top: -6%;
+}
+
+.rightarrow3{
+  float: right;
+  margin-left: 20%;
+  margin-top: -6%;
 }
