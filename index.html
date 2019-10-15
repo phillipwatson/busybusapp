@@ -1,52 +1,69 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <script src="https://kit.fontawesome.com/aba1a0df3a.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <meta charset="utf-8">
     <title>Busy Bus App</title>
   </head>
+
   <body>
     <nav>
-      <img class="backarrow" src="images/backArrow.png"><p class="backButton">Back</p><h1>Washington & State</h1><img class="ham" src="images/Hamburger.png">
+      <i class="fas fa-chevron-left"></i>
+      <h1>Washington & State</h1>
+      <i class="fas fa-bars"></i>
     </nav>
 
-    <div class="nowBoarding route">
+    <ul class="nowBoarding">
       <section class="whitebox">
-        <h3>60 Randolph/Harbor Dr</h3><img class="searcharrow" src="images/arrowRight.png">
+        <h3>60 Randolph/Harbor Dr</h3><i class="fas fa-chevron-right"></i>
       </section>
       <p class="boardingtext">Now Boarding</p>
-    </div>
+    </ul>
 
+    <ul class="route">
+      <p class="line">60 Randolph/Harbor Dr</p>
+      <p class="frequency">9:40am</p>
+      <i class="fas fa-chevron-right"></i>
+    </ul>
 
-    <div class="eastBound route">
-      <p class="line">Randolph/Harbor Dr</p> <p class="frequency">9:40am</p><p class="min">0min</p><img class="rightarrow" src="images/arrowRight.png">
+    <ul class="route">
+      <p class=line>124 Navy Pier</p><i class="fas fa-exclamation-circle"></i>
+      <p class="frequency">10:00am</p>
+      <i class="fas fa-chevron-right"></i>
+    </ul>
 
-    </div>
+    <ul class="route">
+      <p class="line">151 Devon/Clark</p>
+      <p class="frequency">9:56am</p>
+      <i class="fas fa-chevron-right"></i>
+    </ul>
 
-    <div class="route">
-      <p class=line>124 Navy Pier</p> <p class="frequency">10:00am</p><p class="min">20min</p><img class="rightarrow" src="images/arrowRight.png">
-    </div>
+    <ul class="route">
+      <p class="line">103rd/Stony Island</p>
+      <p class="frequency">10:00am</p>
+      <i class="fas fa-chevron-right"></i>
+    </ul>
 
-    <div class="northBound route">
-      <p class="line">151 Devon/Clark</p> <p class="frequency">9:56am</p><p class="min">16min</p><img class="rightarrow" src="images/arrowRight.png">
-    </div>
+    <ul class="route">
+      <p class="line">124 Navy Pier</p>
+      <p class="frequency">10:10am</p>
+      <i class="fas fa-chevron-right"></i>
+    </ul>
 
-    <div class="southBound route">
-      <p class="line">103rd/Stony Island</p> <p class="frequency">10:00am</p><p class="min">19min</p><img class="rightarrow" src="images/arrowRight.png">
-    </div>
+    <ul class="reroute">
+      <p class="line">6x Jackson Park Express</p>
+      <p class="frequency">N/A</p>
+      <i class="fas fa-chevron-right"></i>
+    </ul>
 
-    <div class="route">
-      <p class="line">124 Navy Pier</p> <p class="frequency">10:10am</p><p class="min">29min</p><img class="rightarrow" src="images/arrowRight.png">
-    </div>
-
-    <div class="reroute route">
-      <p class="line">6x Jackson Park Express</p> <p class="frequency">N/A</p><img class="rightarrow2" src="images/arrowRight.png">
-    </div>
-
-    <div class="outOfService route">
-      <p class="line">4 Cottage Grove</p> <p class="frequency">Resumes 12:10am</p><img class="rightarrow3" src="images/arrowRight.png">
-    </div>
+    <ul class="outOfService">
+      <p class="line">4 Cottage Grove</p>
+      <p class="frequency">Resumes 12:10am</p>
+      <i class="fas fa-chevron-right"></i>
+    </ul>
 
   </body>
 </html>
