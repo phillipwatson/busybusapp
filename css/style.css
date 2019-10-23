@@ -1,0 +1,78 @@
+body{
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  width: 410px
+}
+
+h1{
+  display: inline;
+  text-align: center;
+  margin: auto;
+}
+
+nav{
+  background-color: #ECECEC;
+  text-align: center;
+  padding: 5%;
+}
+
+ul{
+  padding: 5%;
+  border-bottom: 1px solid black;
+}
+
+li{
+  display: inline;
+}
+
+.reroute{
+  color: red;
+}
+
+.oos{
+  color: grey;
+}
+
+.route{
+  text-align: left;
+}
+
+.whitebox{
+  background-color: #fff;
+  width: 250px;
+  height: 20px;
+  margin: auto;
+}
+
+.nowBoarding{
+  border-bottom: none;
+  background-color: #ECECEC;
+  text-align: center;
+}
+
+.frequency{
+  display: inline-block;
+  float: right;
+  margin-right: 8%;
+}
+
+.line{
+  display: inline;
+  font-weight: 700;
+}
+
+.fa-chevron-left{
+  float: left;
+}
+
+.fa-chevron-right{
+  float: right;
+}
+
+.fa-bars{
+  float: right;
+}
+
+.fa-exclamation-circle{
+  color: red;
+}
